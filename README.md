@@ -5,10 +5,10 @@ Faucet lets you load custom DLL mods into Minecraft Legacy Console Edition using
 
 ---
 
-## Requirements For Modding
+## Requirements
 
-- [Faucet (custom LCE fork)](https://github.com/ytsodacan/Faucet) — the modified game executable required to run mods
-- [FaucetSDK](https://github.com/ytsodacan/FaucetSDK/tree/main) — headers, lib, and example mod for building your own mods
+- [Faucet (custom LCE fork)](https://github.com/ytsodacan/FaucetBuilds/releases/tag/build) — the modified game executable required to run mods
+- [FaucetSDK](https://github.com/ytsodacan/FaucetBuilds/releases/tag/buildSDK/tree/main) — headers, lib, and example mod for building your own mods
 - Visual Studio 2022 with the **Desktop development with C++** workload
 - Windows x64
 
@@ -27,7 +27,7 @@ Faucet lets you load custom DLL mods into Minecraft Legacy Console Edition using
 ### Project Setup
 
 1. In Visual Studio 2022, create a new **Dynamic-Link Library (DLL)** project targeting **x64**.
-2. Download the [FaucetSDK](https://github.com/ytsodacan/FaucetSDK/tree/main) and copy these files into your project folder:
+2. Download the [FaucetSDK](https://github.com/ytsodacan/FaucetBuilds/releases/tag/buildSDK/tree/main) and copy these files into your project folder:
    - `IMod.h`
    - `SDK.h`
    - `ModExport.h`
@@ -163,5 +163,5 @@ if (level) {
 
 ## Links
 
-- **Faucet (game fork)**: https://github.com/ytsodacan/Faucet
-- **FaucetSDK (mod tools)**: https://github.com/ytsodacan/FaucetSDK/tree/main
+- **Faucet (game fork)**: https://github.com/ytsodacan/FaucetBuilds/releases/tag/build
+- **FaucetSDK (mod tools)**: https://github.com/ytsodacan/FaucetBuilds/releases/tag/buildSDK/tree/main
