@@ -5,7 +5,7 @@ Faucet lets you load custom DLL mods into Minecraft Legacy Console Edition using
 
 ---
 
-## Requirements
+## Requirements For Modding
 
 - [Faucet (custom LCE fork)](https://github.com/ytsodacan/Faucet) — the modified game executable required to run mods
 - [FaucetSDK](https://github.com/ytsodacan/FaucetSDK/tree/main) — headers, lib, and example mod for building your own mods
