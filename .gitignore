@@ -1,0 +1,11 @@
+# Visual Studio databases
+*.VC.db
+
+# Precompiled headers
+*.ipch
+*.pch
+
+# Linker/compiler intermediates
+*.ilk
+*.lib
+*.pdb

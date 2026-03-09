@@ -1,0 +1,2 @@
+S:\lce\fixproj\MinecraftConsoles\Minecraft.World\x64_Debug\Minecraft.World.lib
+S:\GitHub\Faucet\Minecraft.World\x64_Debug\Minecraft.World.lib

@@ -1,0 +1,4 @@
+S:\lce\fixproj\MinecraftConsoles\Minecraft.Client\x64\Debug\Minecraft.Client.vcxproj.AssemblyReference.cache
+S:\lce\fixproj\MinecraftConsoles\Minecraft.Client\x64\Debug\Minecraf.574C8C87.Up2Date
+S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Minecraft.Client.vcxproj.AssemblyReference.cache
+S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Minecraf.574C8C87.Up2Date

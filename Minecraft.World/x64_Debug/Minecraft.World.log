@@ -1,0 +1,2053 @@
+﻿  stdafx.cpp
+S:\GitHub\Faucet\Minecraft.World\CompoundTag.h(225,24): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file 'stdafx.cpp')
+      S:\GitHub\Faucet\Minecraft.World\CompoundTag.h(225,24):
+      consider using '%zd' in the format string
+  
+  UIStructs.h
+S:\GitHub\Faucet\Minecraft.Client\Common\Consoles_App.h(365,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'stdafx.cpp')
+  
+  LevelGenerationOptions.h
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file 'stdafx.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\CompoundTag.h(205,49):
+          see reference to class template instantiation 'ListTag<Tag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<Tag>::toString(void)'
+  
+  AABB.cpp
+  Abilities.cpp
+  AbsoptionMobEffect.cpp
+  AbstractContainerMenu.cpp
+  Achievement.cpp
+  Achievements.cpp
+  AddEntityPacket.cpp
+  AddExperienceOrbPacket.cpp
+  AddGlobalEntityPacket.cpp
+  AddIslandLayer.cpp
+  AddMobPacket.cpp
+  AddMushroomIslandLayer.cpp
+  AddPaintingPacket.cpp
+  AddPlayerPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\AbstractContainerMenu.cpp(483,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/AbstractContainerMenu.cpp')
+  
+  AddSnowLayer.cpp
+  AgableMob.cpp
+  AirTile.cpp
+  AmbientCreature.cpp
+S:\GitHub\Faucet\Minecraft.World\AbstractContainerMenu.cpp(752,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/AbstractContainerMenu.cpp')
+  
+  Animal.cpp
+  AnimalChest.cpp
+  AnimatePacket.cpp
+  AnvilTile.cpp
+  AnvilTileItem.cpp
+  ArmorDyeRecipe.cpp
+  ArmorItem.cpp
+  ArmorRecipes.cpp
+  ArmorSlot.cpp
+  Arrow.cpp
+  ArrowDamageEnchantment.cpp
+  ArrowFireEnchantment.cpp
+  ArrowInfiniteEnchantment.cpp
+  ArrowKnockbackEnchantment.cpp
+  AttackDamageMobEffect.cpp
+  Attribute.cpp
+  AttributeModifier.cpp
+  AuxDataTileItem.cpp
+  AvoidPlayerGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(13,26): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(53,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(73,52): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(75,29): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(76,31): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ArmorDyeRecipe.cpp(77,30): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ArmorDyeRecipe.cpp')
+  
+  AwardStatPacket.cpp
+  BaseAttribute.cpp
+  BaseAttributeMap.cpp
+  BaseMobSpawner.cpp
+  BasePressurePlateTile.cpp
+  BasicTree.cpp
+  BasicTypeContainers.cpp
+  Bat.cpp
+  BeachBiome.cpp
+  BeaconMenu.cpp
+  BeaconTile.cpp
+S:\GitHub\Faucet\Minecraft.World\BaseMobSpawner.cpp(100,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/BaseMobSpawner.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/BaseMobSpawner.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\BaseMobSpawner.cpp(215,38):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  BeaconTileEntity.cpp
+  BedItem.cpp
+S:\GitHub\Faucet\Minecraft.World\Arrow.cpp(308,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Arrow.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Arrow.cpp(329,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Arrow.cpp')
+  
+  BedTile.cpp
+  BegGoal.cpp
+  BinaryHeap.cpp
+  Biome.cpp
+  BiomeCache.cpp
+S:\GitHub\Faucet\Minecraft.World\Bat.cpp(141,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Bat.cpp')
+  
+  BiomeDecorator.cpp
+S:\GitHub\Faucet\Minecraft.World\BiomeCache.cpp(103,33): warning C4244: '=': conversion from 'float' to '__int64', possible loss of data
+  (compiling source file '/BiomeCache.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeCache.cpp(127,14): warning C4244: 'initializing': conversion from 'float' to '__int64', possible loss of data
+  (compiling source file '/BiomeCache.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeCache.cpp(157,15): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeCache.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BegGoal.cpp(50,147): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/BegGoal.cpp')
+  
+  BiomeInitLayer.cpp
+  BiomeOverrideLayer.cpp
+  BiomeSource.cpp
+  BirchFeature.cpp
+  Blaze.cpp
+  BlockDestructionProgress.cpp
+  BlockGenMethods.cpp
+  BlockRegionUpdatePacket.cpp
+  BlockReplacements.cpp
+  BlockSourceImpl.cpp
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(91,49): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(135,55): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(173,43): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(211,43): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(251,55): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(318,29): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(347,29): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(385,29): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BiomeSource.cpp(549,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BiomeSource.cpp')
+  
+  Boat.cpp
+  BoatItem.cpp
+  BodyControl.cpp
+  BonusChestFeature.cpp
+  BookItem.cpp
+  BookshelfTile.cpp
+  Calendar.cpp
+  ColoredTile.cpp
+  CommandBlock.cpp
+  CommandBlockEntity.cpp
+  ComparatorTile.cpp
+  ComparatorTileEntity.cpp
+S:\GitHub\Faucet\Minecraft.World\BoatItem.cpp(112,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/BoatItem.cpp')
+  
+  DaylightDetectorTile.cpp
+  DaylightDetectorTileEntity.cpp
+  DropperTile.cpp
+  DropperTileEntity.cpp
+  DummyCriteria.cpp
+  EmptyMapItem.cpp
+  FireworksChargeItem.cpp
+  FireworksItem.cpp
+S:\GitHub\Faucet\Minecraft.World\DaylightDetectorTile.cpp(65,22): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/DaylightDetectorTile.cpp')
+  
+  FireworksMenu.cpp
+  FireworksRecipe.cpp
+  FireworksRocketEntity.cpp
+  FlatGeneratorInfo.cpp
+  FlatLayerInfo.cpp
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(59,26): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(134,28): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(165,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+  GameRules.cpp
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(201,34): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(202,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(221,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(236,34): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(237,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(301,26): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FireworksRecipe.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/FireworksRecipe.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\FireworksRecipe.cpp(132,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/FireworksItem.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\FireworksItem.cpp(58,37):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  HayBlockTile.cpp
+  HealthCriteria.cpp
+  HopperMenu.cpp
+  HopperTile.cpp
+  HopperTileEntity.cpp
+  HorseInventoryMenu.cpp
+  HtmlString.cpp
+S:\GitHub\Faucet\Minecraft.World\HopperMenu.cpp(11,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperMenu.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperMenu.cpp(43,17): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperMenu.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperMenu.cpp(45,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/HopperMenu.cpp')
+  
+  LargeFireball.cpp
+  LeashItem.cpp
+  MinecartChest.cpp
+  MinecartContainer.cpp
+S:\GitHub\Faucet\Minecraft.World\HorseInventoryMenu.cpp(83,17): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HorseInventoryMenu.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HorseInventoryMenu.cpp(85,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/HorseInventoryMenu.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LargeFireball.cpp(32,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/LargeFireball.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(38,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(47,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTileEntity.cpp')
+  
+  MinecartFurnace.cpp
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(200,26): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(234,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(313,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTile.cpp(104,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/HopperTile.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(443,97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/HopperTileEntity.cpp')
+  
+  MinecartHopper.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/HopperTileEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\HopperTileEntity.cpp(29,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  MinecartRideable.cpp
+  MinecartSpawner.cpp
+  MinecartTNT.cpp
+  MultiEntityMobPart.cpp
+  BottleItem.cpp
+S:\GitHub\Faucet\Minecraft.World\MinecartContainer.cpp(33,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/MinecartContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MinecartContainer.cpp(145,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/MinecartContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MinecartContainer.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/MinecartContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MinecartContainer.cpp(210,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/MinecartContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/MinecartContainer.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\MinecartContainer.cpp(184,38):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  BoundingBox.cpp
+  BowItem.cpp
+  BowlFoodItem.cpp
+  BreakDoorGoal.cpp
+  BreedGoal.cpp
+  BrewingStandMenu.cpp
+  BrewingStandTile.cpp
+  BrewingStandTileEntity.cpp
+  BucketItem.cpp
+S:\GitHub\Faucet\Minecraft.World\BreedGoal.cpp(44,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/BreedGoal.cpp')
+  
+  Buffer.cpp
+S:\GitHub\Faucet\Minecraft.World\BrewingStandTileEntity.cpp(314,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BrewingStandTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BrewingStandTileEntity.cpp(328,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BrewingStandTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\BrewingStandTileEntity.cpp(383,24): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BrewingStandTileEntity.cpp')
+  
+  BufferedOutputStream.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/BrewingStandTileEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\BrewingStandTileEntity.cpp(307,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\BrewingStandTile.cpp(92,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/BrewingStandTile.cpp')
+  
+  BufferedReader.cpp
+  Bush.cpp
+  ButtonTile.cpp
+  ByteArrayInputStream.cpp
+S:\GitHub\Faucet\Minecraft.World\ByteArrayInputStream.cpp(105,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/ByteArrayInputStream.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ByteArrayInputStream.cpp(107,12): warning C4018: '>': signed/unsigned mismatch
+  (compiling source file '/ByteArrayInputStream.cpp')
+  
+  ByteArrayOutputStream.cpp
+  ByteBuffer.cpp
+  CactusFeature.cpp
+  CactusTile.cpp
+S:\GitHub\Faucet\Minecraft.World\ByteBuffer.cpp(109,2): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ByteBuffer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ByteBuffer.cpp(258,2): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ByteBuffer.cpp')
+  
+  CakeTile.cpp
+  CanyonFeature.cpp
+  CarrotOnAStickItem.cpp
+  CarrotTile.cpp
+  CauldronTile.cpp
+  CaveFeature.cpp
+  CaveSpider.cpp
+  ChatPacket.cpp
+  ChestTile.cpp
+S:\GitHub\Faucet\Minecraft.World\ChatPacket.cpp(97,40): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/ChatPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ChatPacket.cpp(103,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/ChatPacket.cpp')
+  
+  ChestTileEntity.cpp
+  Chicken.cpp
+  ChunkPos.cpp
+  ChunkStorageProfileDecorator.cpp
+  ChunkTilesUpdatePacket.cpp
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,127): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,112): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,98): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\CaveFeature.cpp(41,55): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CaveFeature.cpp')
+  
+  ChunkVisibilityAreaPacket.cpp
+  ChunkVisibilityPacket.cpp
+  Class.cpp
+  ClayFeature.cpp
+  ClayTile.cpp
+  ClientCommandPacket.cpp
+  ClientSideMerchant.cpp
+  ClockItem.cpp
+  ClothDyeRecipes.cpp
+  NameTagItem.cpp
+  Objective.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/ChestTileEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\ChestTileEntity.cpp(133,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  ObjectiveCriteria.cpp
+S:\GitHub\Faucet\Minecraft.World\Chicken.cpp(71,14): warning C4305: '*=': truncation from 'double' to 'float'
+  (compiling source file '/Chicken.cpp')
+  
+  PlayerTeam.cpp
+  ItemDispenseBehaviors.cpp
+  PoweredMetalTile.cpp
+  PoweredRailTile.cpp
+  AbstractProjectileDispenseBehavior.cpp
+  RailTile.cpp
+  Redstone.cpp
+  RepeaterTile.cpp
+  RotatedPillarTile.cpp
+  Score.cpp
+  Scoreboard.cpp
+  SimpleFoiledItem.cpp
+  SnowItem.cpp
+  StainedGlassBlock.cpp
+  StainedGlassPaneBlock.cpp
+  StoneButtonTile.cpp
+  StructureFeatureIO.cpp
+  StructureFeatureSavedData.cpp
+  Team.cpp
+  WeightedPressurePlateTile.cpp
+  WoodButtonTile.cpp
+  WoolTileItem.cpp
+  CoalItem.cpp
+  CocoaTile.cpp
+  Color.cpp
+  ColoredTileItem.cpp
+  CombatEntry.cpp
+  CombatTracker.cpp
+  Command.cpp
+  CommandDispatcher.cpp
+  CommonStats.cpp
+S:\GitHub\Faucet\Minecraft.World\WeightedPressurePlateTile.cpp(19,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/WeightedPressurePlateTile.cpp')
+  
+  CompassItem.cpp
+  ComplexItem.cpp
+  ComplexItemDataPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\ColoredTileItem.cpp(55,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ColoredTileItem.cpp')
+  
+  CompoundContainer.cpp
+  CompressedTileStorage.cpp
+  compression.cpp
+S:\GitHub\Faucet\Minecraft.World\CompoundContainer.cpp(63,11): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file '/CompoundContainer.cpp')
+  
+  Connection.cpp
+  ConsoleSaveFileConverter.cpp
+  ConsoleSaveFileOriginal.cpp
+  ContainerAckPacket.cpp
+  ContainerButtonClickPacket.cpp
+  ContainerClickPacket.cpp
+  ContainerClosePacket.cpp
+  ContainerOpenPacket.cpp
+  ContainerSetContentPacket.cpp
+  ContainerSetDataPacket.cpp
+  ContainerSetSlotPacket.cpp
+  ControlledByPlayerGoal.cpp
+  CoralTile.cpp
+  Cow.cpp
+  CraftingContainer.cpp
+  CraftingMenu.cpp
+  DefaultDispenseItemBehavior.cpp
+  BehaviorRegistry.cpp
+  DefaultGameModeCommand.cpp
+S:\GitHub\Faucet\Minecraft.World\BehaviorRegistry.cpp(14,3): warning C4150: deletion of pointer to incomplete type 'DispenseItemBehavior'; no destructor called
+  (compiling source file '/BehaviorRegistry.cpp')
+      S:\GitHub\Faucet\Minecraft.World\BehaviorRegistry.h(3,7):
+      see declaration of 'DispenseItemBehavior'
+  
+S:\GitHub\Faucet\Minecraft.World\BehaviorRegistry.cpp(17,2): warning C4150: deletion of pointer to incomplete type 'DispenseItemBehavior'; no destructor called
+  (compiling source file '/BehaviorRegistry.cpp')
+      S:\GitHub\Faucet\Minecraft.World\BehaviorRegistry.h(3,7):
+      see declaration of 'DispenseItemBehavior'
+  
+S:\GitHub\Faucet\Minecraft.World\ControlledByPlayerGoal.cpp(82,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/ControlledByPlayerGoal.cpp')
+  
+  DispenseItemBehavior.cpp
+  EffectCommand.cpp
+  EnchantItemCommand.cpp
+  EntityHorse.cpp
+  EntitySelector.cpp
+  ExperienceCommand.cpp
+  FacingEnum.cpp
+  GameCommandPacket.cpp
+  GameModeCommand.cpp
+  GenericStats.cpp
+  GiveItemCommand.cpp
+  HealthBoostMobEffect.cpp
+  KillCommand.cpp
+  LeashFenceKnotEntity.cpp
+  LevelParticlesPacket.cpp
+  LivingEntity.cpp
+  ModifiableAttributeInstance.cpp
+  PerformanceTimer.cpp
+  RangedAttackGoal.cpp
+  RangedAttribute.cpp
+  RunAroundLikeCrazyGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/EnchantItemCommand.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\EnchantItemCommand.cpp(50,24):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  ServersideAttributeMap.cpp
+  SetDisplayObjectivePacket.cpp
+  SetObjectivePacket.cpp
+S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(425,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/EntityHorse.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(429,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/EntityHorse.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(1326,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/EntityHorse.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(1455,34): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/EntityHorse.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(1517,39): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/EntityHorse.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/EntityHorse.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\EntityHorse.cpp(1453,39):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\SetDisplayObjectivePacket.cpp(45,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/SetDisplayObjectivePacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\SetObjectivePacket.cpp(41,63): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/SetObjectivePacket.cpp')
+  
+  SetPlayerTeamPacket.cpp
+  SetScorePacket.cpp
+  SharedMonsterAttributes.cpp
+  TileEditorOpenPacket.cpp
+  TimeCommand.cpp
+S:\GitHub\Faucet\Minecraft.World\SetPlayerTeamPacket.cpp(97,31): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file '/SetPlayerTeamPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\SetPlayerTeamPacket.cpp(113,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/SetPlayerTeamPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/SharedMonsterAttributes.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\SharedMonsterAttributes.cpp(14,35):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\SetScorePacket.cpp(62,113): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/SetScorePacket.cpp')
+  
+  ToggleDownfallCommand.cpp
+  TradeItemPacket.cpp
+  CraftItemPacket.cpp
+  Creature.cpp
+  Creeper.cpp
+  CropTile.cpp
+  CustomLevelSource.cpp
+  CustomPayloadPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\CustomPayloadPacket.cpp(74,41): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/CustomPayloadPacket.cpp')
+  
+  DamageEnchantment.cpp
+  DamageSource.cpp
+  DataInputStream.cpp
+S:\GitHub\Faucet\Minecraft.World\DataInputStream.cpp(552,13): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/DataInputStream.cpp')
+  
+  DataLayer.cpp
+  DataOutputStream.cpp
+S:\GitHub\Faucet\Minecraft.World\TimeCommand.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/TimeCommand.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\TimeCommand.cpp(70,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/TimeCommand.cpp')
+  
+  DeadBushFeature.cpp
+  DeadBushTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Creeper.cpp(76,20): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/Creeper.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Creeper.cpp(122,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Creeper.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Creeper.cpp(123,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Creeper.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1012,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1026,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1509,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1526,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1527,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1528,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1529,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1530,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1531,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(1618,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LivingEntity.cpp')
+  
+  DebugOptionsPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/LivingEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\LivingEntity.cpp(410,71):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  DefendVillageTargetGoal.cpp
+  DelayedRelease.cpp
+  DerivedLevelData.cpp
+  DesertBiome.cpp
+  DesertWellFeature.cpp
+  DetectorRailTile.cpp
+  DigDurabilityEnchantment.cpp
+  DiggerItem.cpp
+  DiggingEnchantment.cpp
+  Dimension.cpp
+  DiodeTile.cpp
+  Direction.cpp
+  DirectionalTile.cpp
+  DirectoryLevelStorage.cpp
+  DirectoryLevelStorageSource.cpp
+  DirtTile.cpp
+  DisconnectPacket.cpp
+  DispenserTile.cpp
+  DispenserTileEntity.cpp
+  DoorInfo.cpp
+  DoorInteractGoal.cpp
+  DragonFireball.cpp
+  EatTileGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\DirectoryLevelStorage.cpp(140,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/DirectoryLevelStorage.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\DirectoryLevelStorage.cpp(152,28): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/DirectoryLevelStorage.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\DirectoryLevelStorage.cpp(284,30): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/DirectoryLevelStorage.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\DirectoryLevelStorage.cpp(684,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/DirectoryLevelStorage.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/DirectoryLevelStorage.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\DirectoryLevelStorage.cpp(583,33):
+          see reference to class template instantiation 'ListTag<DoubleTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<DoubleTag>::toString(void)'
+  
+  EggTile.cpp
+S:\GitHub\Faucet\Minecraft.World\DispenserTileEntity.cpp(135,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/DispenserTileEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/DispenserTileEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\DispenserTileEntity.cpp(170,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\Dimension.cpp(157,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Dimension.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Dimension.cpp(158,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Dimension.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Dimension.cpp(159,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Dimension.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\DragonFireball.cpp(52,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/DragonFireball.cpp')
+  
+  EnchantedBookItem.cpp
+  Enchantment.cpp
+  EnchantmentCategory.cpp
+  EnchantmentContainer.cpp
+  EnchantmentHelper.cpp
+S:\GitHub\Faucet\Minecraft.World\EnchantedBookItem.cpp(120,111): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/EnchantedBookItem.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnchantedBookItem.cpp(136,111): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/EnchantedBookItem.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/EnchantedBookItem.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\EnchantedBookItem.cpp(26,22):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  EnchantmentInstance.cpp
+  EnchantmentMenu.cpp
+  EnchantmentTableEntity.cpp
+  EnchantmentTableTile.cpp
+  EnderChestTile.cpp
+  EnderChestTileEntity.cpp
+  EnderEyeItem.cpp
+  EnderpearlItem.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/EnchantmentHelper.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\EnchantmentHelper.cpp(23,22):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  EndPodiumFeature.cpp
+  ExperienceItem.cpp
+  ExtremeHillsBiome.cpp
+  Feature.cpp
+  EnderCrystal.cpp
+S:\GitHub\Faucet\Minecraft.World\EnchantmentMenu.cpp(167,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/EnchantmentMenu.cpp')
+  
+  EnderDragon.cpp
+S:\GitHub\Faucet\Minecraft.World\EnderEyeItem.cpp(211,92): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/EnderEyeItem.cpp')
+  
+  EyeOfEnderSignal.cpp
+  FireAspectEnchantment.cpp
+  FireChargeItem.cpp
+  FleeSunGoal.cpp
+  FlippedIcon.cpp
+  FloatGoal.cpp
+  FlowerPotTile.cpp
+  FollowOwnerGoal.cpp
+  FollowParentGoal.cpp
+  Goal.cpp
+  GoalSelector.cpp
+S:\GitHub\Faucet\Minecraft.World\EyeOfEnderSignal.cpp(57,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EyeOfEnderSignal.cpp')
+  
+  GoldenAppleItem.cpp
+  Golem.cpp
+  GroundBushFeature.cpp
+  GrowMushroomIslandLayer.cpp
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(222,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(281,19): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(283,25): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(427,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(488,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(491,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(566,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(571,20): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(575,20): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+  HalfSlabTile.cpp
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(663,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(664,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(730,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(731,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(732,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(904,72): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1124,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1156,44): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FollowOwnerGoal.cpp(56,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/FollowOwnerGoal.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1504,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1505,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1512,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1574,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1575,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1580,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1581,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1587,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1588,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1823,44): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1823,44): warning C4244:         with
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1823,44): warning C4244:         [
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1823,44): warning C4244:             T=double
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1823,44): warning C4244:         ]
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1873,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1923,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1930,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1933,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1937,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1938,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1947,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1950,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1954,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\EnderDragon.cpp(1955,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/EnderDragon.cpp')
+  
+  HangingEntity.cpp
+  HangingEntityItem.cpp
+  HellFlatLevelSource.cpp
+  HurtByTargetGoal.cpp
+  IceBiome.cpp
+  InteractGoal.cpp
+  ItemFrame.cpp
+  JumpControl.cpp
+  JungleBiome.cpp
+  KickPlayerPacket.cpp
+  KnockbackEnchantment.cpp
+  LavaSlime.cpp
+  LeapAtTargetGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\LeapAtTargetGoal.cpp(36,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/LeapAtTargetGoal.cpp')
+  
+  LevelSoundPacket.cpp
+  LookAtPlayerGoal.cpp
+  LookAtTradingPlayerGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\HellFlatLevelSource.cpp(11,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/HellFlatLevelSource.cpp')
+  
+  LookControl.cpp
+  LootBonusEnchantment.cpp
+  MakeLoveGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\LookAtPlayerGoal.cpp(66,145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/LookAtPlayerGoal.cpp')
+  
+  MegaTreeFeature.cpp
+  MeleeAttackGoal.cpp
+  MerchantContainer.cpp
+  MerchantMenu.cpp
+  MerchantRecipe.cpp
+S:\GitHub\Faucet\Minecraft.World\MeleeAttackGoal.cpp(39,19): warning C4150: deletion of pointer to incomplete type 'Path'; no destructor called
+  (compiling source file '/MeleeAttackGoal.cpp')
+      S:\GitHub\Faucet\Minecraft.World\PathfinderMob.h(6,7):
+      see declaration of 'Path'
+  
+S:\GitHub\Faucet\Minecraft.World\MeleeAttackGoal.cpp(48,2): warning C4150: deletion of pointer to incomplete type 'Path'; no destructor called
+  (compiling source file '/MeleeAttackGoal.cpp')
+      S:\GitHub\Faucet\Minecraft.World\PathfinderMob.h(6,7):
+      see declaration of 'Path'
+  
+  MerchantRecipeList.cpp
+  MerchantResultSlot.cpp
+  MilkBucketItem.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/MerchantRecipeList.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\MerchantRecipeList.cpp(138,31):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  SpawnEggItem.cpp
+  MoveControl.cpp
+  MoveIndoorsGoal.cpp
+  MoveThroughVillageGoal.cpp
+  MoveTowardsRestrictionGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\MoveControl.cpp(49,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/MoveControl.cpp')
+  
+  MoveTowardsTargetGoal.cpp
+  MultiTextureTileItem.cpp
+  MushroomCow.cpp
+  MushroomIslandBiome.cpp
+  MycelTile.cpp
+  NearestAttackableTargetGoal.cpp
+  NetherBridgeFeature.cpp
+  NetherBridgePieces.cpp
+  NetherWartTile.cpp
+  NonTameRandomTargetGoal.cpp
+  Npc.cpp
+  OcelotSitOnTileGoal.cpp
+  OfferFlowerGoal.cpp
+  OpenDoorGoal.cpp
+  OwnerHurtByTargetGoal.cpp
+  OwnerHurtTargetGoal.cpp
+  OxygenEnchantment.cpp
+  Ocelot.cpp
+  OcelotAttackGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\OwnerHurtByTargetGoal.cpp(6,98): warning C4305: 'argument': truncation from 'int' to 'bool'
+  (compiling source file '/OwnerHurtByTargetGoal.cpp')
+  
+  PanicGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\OwnerHurtTargetGoal.cpp(6,94): warning C4305: 'argument': truncation from 'int' to 'bool'
+  (compiling source file '/OwnerHurtTargetGoal.cpp')
+  
+  PathNavigation.cpp
+  PlayerAbilitiesPacket.cpp
+  PlayerEnderChestContainer.cpp
+  PlayGoal.cpp
+  PotatoTile.cpp
+S:\GitHub\Faucet\Minecraft.World\PlayerEnderChestContainer.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/PlayerEnderChestContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\PlayerEnderChestContainer.cpp(31,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/PlayerEnderChestContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\PlayerEnderChestContainer.cpp(38,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/PlayerEnderChestContainer.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/PlayerEnderChestContainer.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\PlayerEnderChestContainer.cpp(27,22):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  PotionBrewing.cpp
+  PotionItem.cpp
+  ProtectionEnchantment.cpp
+S:\GitHub\Faucet\Minecraft.World\PotionBrewing.cpp(364,16): warning C4244: 'initializing': conversion from 'const wchar_t' to 'char', possible loss of data
+  (compiling source file '/PotionBrewing.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\PotionBrewing.cpp(771,16): warning C4244: 'initializing': conversion from 'const wchar_t' to 'char', possible loss of data
+  (compiling source file '/PotionBrewing.cpp')
+  
+  QuartzBlockTile.cpp
+  RandomLookAroundGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\RandomLookAroundGoal.cpp(36,119): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/RandomLookAroundGoal.cpp')
+  
+  RandomPos.cpp
+  RandomScatteredLargeFeature.cpp
+  RandomStrollGoal.cpp
+  Rarity.cpp
+  RedlightTile.cpp
+  RegionHillsLayer.cpp
+  RepairContainer.cpp
+  AnvilMenu.cpp
+  RepairResultSlot.cpp
+  RestrictOpenDoorGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/PotionItem.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\PotionItem.cpp(53,38):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  RestrictSunGoal.cpp
+  RotateHeadPacket.cpp
+  ScatteredFeaturePieces.cpp
+  SeedFoodItem.cpp
+S:\GitHub\Faucet\Minecraft.World\AnvilMenu.cpp(99,43): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/AnvilMenu.cpp')
+  
+  Sensing.cpp
+S:\GitHub\Faucet\Minecraft.World\AnvilMenu.cpp(341,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/AnvilMenu.cpp')
+  
+  SitGoal.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/AnvilMenu.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\AnvilMenu.cpp(81,94):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  SkullItem.cpp
+  SkullTile.cpp
+  SkullTileEntity.cpp
+  SparseDataStorage.cpp
+  SwampRiversLayer.cpp
+  SwellGoal.cpp
+  TakeFlowerGoal.cpp
+  TamableAnimal.cpp
+  TargetGoal.cpp
+  TemptGoal.cpp
+  ThornsEnchantment.cpp
+S:\GitHub\Faucet\Minecraft.World\TemptGoal.cpp(83,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/TemptGoal.cpp')
+  
+  TileDestructionPacket.cpp
+  TileEventData.cpp
+  TradeWithPlayerGoal.cpp
+  TripWireSourceTile.cpp
+  TripWireTile.cpp
+  UpdateAttributesPacket.cpp
+  Village.cpp
+S:\GitHub\Faucet\Minecraft.World\ThornsEnchantment.cpp(62,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/ThornsEnchantment.cpp')
+  
+  VillagerGolem.cpp
+S:\GitHub\Faucet\Minecraft.World\UpdateAttributesPacket.cpp(67,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/UpdateAttributesPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\UpdateAttributesPacket.cpp(77,34): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file '/UpdateAttributesPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\UpdateAttributesPacket.cpp(96,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/UpdateAttributesPacket.cpp')
+  
+  Villages.cpp
+  VillageSiege.cpp
+  VinesFeature.cpp
+  WallTile.cpp
+  WeighedTreasure.cpp
+S:\GitHub\Faucet\Minecraft.World\Village.cpp(127,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/Village.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Village.cpp(134,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/Village.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Village.cpp(156,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/Village.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Village.cpp(364,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/Village.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Villages.cpp(97,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Villages.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Village.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Village.cpp(431,35):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Villages.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Villages.cpp(225,38):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\VillageSiege.cpp(95,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/VillageSiege.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\WeighedTreasure.cpp(78,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/WeighedTreasure.cpp')
+  
+  Witch.cpp
+  WitherBoss.cpp
+  WitherSkull.cpp
+  WoodSlabTile.cpp
+  C4JThread.cpp
+S:\GitHub\Faucet\Minecraft.World\VillagerGolem.cpp(75,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/VillagerGolem.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\VillagerGolem.cpp(152,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/VillagerGolem.cpp')
+  
+  WoodTile.cpp
+  WoolCarpetTile.cpp
+  XZPacket.cpp
+  ShoreLayer.cpp
+  SparseLightStorage.cpp
+S:\GitHub\Faucet\Minecraft.World\Witch.cpp(176,41): warning C4305: '*=': truncation from 'double' to 'float'
+  (compiling source file '/Witch.cpp')
+  
+  SpikeFeature.cpp
+  NetherSphere.cpp
+  SmallFireball.cpp
+  SnowMan.cpp
+  TextureAndGeometryChangePacket.cpp
+  TextureAndGeometryPacket.cpp
+  TheEndBiome.cpp
+  TheEndBiomeDecorator.cpp
+S:\GitHub\Faucet\Minecraft.World\WitherBoss.cpp(278,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/WitherBoss.cpp')
+  
+  TheEndDimension.cpp
+  TheEndLevelRandomLevelSource.cpp
+  TheEndPortal.cpp
+  TheEndPortalFrameTile.cpp
+  TheEndPortalTileEntity.cpp
+  Throwable.cpp
+  ThrownEnderpearl.cpp
+  ThrownExpBottle.cpp
+S:\GitHub\Faucet\Minecraft.World\TheEndPortal.cpp(21,21): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+  (compiling source file '/TheEndPortal.cpp')
+  
+  ThrownPotion.cpp
+  TileEntityDataPacket.cpp
+  UntouchingEnchantment.cpp
+  UpdateGameRuleProgressPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\Throwable.cpp(91,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Throwable.cpp')
+  
+  Distort.cpp
+  DoorItem.cpp
+  DoorTile.cpp
+  DownfallLayer.cpp
+  DownfallMixerLayer.cpp
+  DungeonFeature.cpp
+  DyePowderItem.cpp
+  EggItem.cpp
+  Emboss.cpp
+  EmptyLevelChunk.cpp
+  EnderMan.cpp
+  Enemy.cpp
+  Entity.cpp
+  EntityActionAtPositionPacket.cpp
+  EntityDamageSource.cpp
+  EntityEventPacket.cpp
+  EntityIO.cpp
+  EntityPos.cpp
+  BaseEntityTile.cpp
+  ExperienceOrb.cpp
+  ExplodePacket.cpp
+  Explosion.cpp
+  Facing.cpp
+  FallingTile.cpp
+S:\GitHub\Faucet\Minecraft.World\ExperienceOrb.cpp(162,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/ExperienceOrb.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ExperienceOrb.cpp(169,12): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ExperienceOrb.cpp')
+  
+  FarmTile.cpp
+  FastNoise.cpp
+  FenceGateTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Entity.cpp(916,44): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Entity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Entity.cpp(917,54): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Entity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Entity.cpp(1050,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Entity.cpp')
+  
+  FenceTile.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Entity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Entity.cpp(1376,42):
+          see reference to class template instantiation 'ListTag<FloatTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<FloatTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\Explosion.cpp(149,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Explosion.cpp')
+  
+  File.cpp
+S:\GitHub\Faucet\Minecraft.World\FallingTile.cpp(187,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/FallingTile.cpp')
+  
+  FileHeader.cpp
+  FileInputStream.cpp
+S:\GitHub\Faucet\Minecraft.World\FileHeader.cpp(662,12): warning C4101: 'platEndian': unreferenced local variable
+  (compiling source file '/FileHeader.cpp')
+  
+  FileOutputStream.cpp
+  Fireball.cpp
+  FireTile.cpp
+  FishingHook.cpp
+  FishingRodItem.cpp
+  FixedBiomeSource.cpp
+  FlatLayer.cpp
+  FlatLevelSource.cpp
+S:\GitHub\Faucet\Minecraft.World\FixedBiomeSource.cpp(29,55): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FixedBiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FixedBiomeSource.cpp(55,49): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FixedBiomeSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\FixedBiomeSource.cpp(77,49): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/FixedBiomeSource.cpp')
+  
+  FlintAndSteelItem.cpp
+  FloatBuffer.cpp
+  FlowerFeature.cpp
+  FlyingMob.cpp
+  FoliageColor.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Fireball.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Fireball.cpp(307,38):
+          see reference to class template instantiation 'ListTag<DoubleTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<DoubleTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\FishingHook.cpp(368,14): warning C4305: '*=': truncation from 'double' to 'float'
+  (compiling source file '/FishingHook.cpp')
+  
+  FoodConstants.cpp
+  FoodData.cpp
+  FoodItem.cpp
+  FoodRecipies.cpp
+  ForestBiome.cpp
+  FurnaceMenu.cpp
+  FurnaceRecipes.cpp
+  FurnaceResultSlot.cpp
+  FurnaceTile.cpp
+  FurnaceTileEntity.cpp
+  FuzzyZoomLayer.cpp
+  GameEventPacket.cpp
+  GeneralStat.cpp
+  GetInfoPacket.cpp
+  Ghast.cpp
+  Giant.cpp
+  GlassTile.cpp
+  GlobalEntity.cpp
+S:\GitHub\Faucet\Minecraft.World\FurnaceResultSlot.cpp(64,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/FurnaceResultSlot.cpp')
+  
+  GrassColor.cpp
+  GrassTile.cpp
+  GravelTile.cpp
+  HalfTransparentTile.cpp
+  Hasher.cpp
+  HatchetItem.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/FurnaceTileEntity.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\FurnaceTileEntity.cpp(122,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  HellBiome.cpp
+  HellDimension.cpp
+  HellFireFeature.cpp
+  HellPortalFeature.cpp
+  HellRandomLevelSource.cpp
+  SoulSandTile.cpp
+  HellSpringFeature.cpp
+  NetherrackTile.cpp
+  HitResult.cpp
+  HoeItem.cpp
+  HouseFeature.cpp
+  HugeMushroomFeature.cpp
+  HugeMushroomTile.cpp
+  I18n.cpp
+  IceTile.cpp
+  ImprovedNoise.cpp
+  ContainerMenu.cpp
+  IndirectEntityDamageSource.cpp
+S:\GitHub\Faucet\Minecraft.World\HellRandomLevelSource.cpp(14,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/HellRandomLevelSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\HellDimension.cpp(88,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/HellDimension.cpp')
+  
+  InputStream.cpp
+  InputStreamReader.cpp
+  InstantenousMobEffect.cpp
+  IntBuffer.cpp
+  IntCache.cpp
+  InteractPacket.cpp
+  Inventory.cpp
+  InventoryMenu.cpp
+  IslandLayer.cpp
+  Item.cpp
+  ItemEntity.cpp
+  ItemInstance.cpp
+  ItemStat.cpp
+  KeepAlivePacket.cpp
+  LadderTile.cpp
+  LakeFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(79,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(160,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(170,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(439,11): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(759,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(763,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Inventory.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Inventory.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Inventory.cpp(508,4):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  Language.cpp
+  LargeCaveFeature.cpp
+  LargeFeature.cpp
+  LargeHellCaveFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\ItemEntity.cpp(183,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/ItemEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ItemEntity.cpp(197,12): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/ItemEntity.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/ItemInstance.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\ItemInstance.cpp(496,9):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  Layer.cpp
+  LeafTile.cpp
+  LeafTileItem.cpp
+  LevelConflictException.cpp
+  LevelData.cpp
+  Level.cpp
+  LevelChunk.cpp
+  LevelEventPacket.cpp
+  LevelSettings.cpp
+  LevelStorage.cpp
+  LevelStorageProfilerDecorator.cpp
+  LevelSummary.cpp
+S:\GitHub\Faucet\Minecraft.World\LevelData.cpp(715,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/LevelData.cpp')
+  
+  LevelType.cpp
+  LeverTile.cpp
+  LightGemFeature.cpp
+  GlowstoneTile.cpp
+  LightningBolt.cpp
+  LiquidTile.cpp
+  LiquidTileDynamic.cpp
+  LiquidTileStatic.cpp
+  LockedChestTile.cpp
+  LoginPacket.cpp
+  MapItem.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/LevelChunk.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\LevelChunk.cpp(1423,39):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  MapItemSavedData.cpp
+  Material.cpp
+  MaterialColor.cpp
+  JavaMath.cpp
+  McRegionChunkStorage.cpp
+  McRegionLevelStorageSource.cpp
+  McRegionLevelStorage.cpp
+  MelonTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(2906,18): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Level.cpp')
+      S:\GitHub\Faucet\Minecraft.World\Level.cpp(2906,18):
+      consider using '%zd' in the format string
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(3246,16): warning C4305: '+=': truncation from 'double' to 'float'
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(3250,16): warning C4305: '-=': truncation from 'double' to 'float'
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(3258,19): warning C4305: '+=': truncation from 'double' to 'float'
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(3262,19): warning C4305: '-=': truncation from 'double' to 'float'
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(3900,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(4311,9): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Level.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Level.cpp(4361,76): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/Level.cpp')
+  
+  MenuBackup.cpp
+  MetalTile.cpp
+  Minecart.cpp
+  MinecartItem.cpp
+S:\GitHub\Faucet\Minecraft.World\MapItemSavedData.cpp(296,67): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MapItemSavedData.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MapItemSavedData.cpp(297,67): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MapItemSavedData.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MapItemSavedData.cpp(301,60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MapItemSavedData.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MapItemSavedData.cpp(302,60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MapItemSavedData.cpp')
+  
+  Minecraft.World.cpp
+  MineShaftFeature.cpp
+  MineShaftPieces.cpp
+  MineShaftStart.cpp
+  Mob.cpp
+  MobCategory.cpp
+  MobEffect.cpp
+  MobEffectInstance.cpp
+S:\GitHub\Faucet\Minecraft.World\MapItem.cpp(74,89): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/MapItem.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MapItem.cpp(75,81): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/MapItem.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Minecart.cpp(64,2): warning C4150: deletion of pointer to incomplete type 'Tickable'; no destructor called
+  (compiling source file '/Minecart.cpp')
+      S:\GitHub\Faucet\Minecraft.World\Level.h(44,7):
+      see declaration of 'Tickable'
+  
+  MobSpawner.cpp
+  MobSpawnerTile.cpp
+S:\GitHub\Faucet\Minecraft.World\MobEffect.cpp(164,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MobEffect.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MobEffect.cpp(168,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MobEffect.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/MineShaftPieces.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\MineShaftPieces.cpp(219,40):
+          see reference to class template instantiation 'ListTag<IntArrayTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<IntArrayTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\MobEffect.cpp(177,13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MobEffect.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MobEffect.cpp(184,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MobEffect.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MobEffect.cpp(189,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/MobEffect.cpp')
+  
+  MobSpawnerTileEntity.cpp
+  MockedLevelStorage.cpp
+  Monster.cpp
+  MonsterRoomFeature.cpp
+  MoveEntityPacket.cpp
+  MoveEntityPacketSmall.cpp
+S:\GitHub\Faucet\Minecraft.World\MobSpawner.cpp(343,54): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file '/MobSpawner.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\MobSpawner.cpp(345,58): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file '/MobSpawner.cpp')
+  
+  MovePlayerPacket.cpp
+  Mth.cpp
+  Mushroom.cpp
+  NoteBlockTile.cpp
+  MusicTileEntity.cpp
+  NbtIo.cpp
+  Node.cpp
+S:\GitHub\Faucet\Minecraft.World\Mob.cpp(197,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Mob.cpp')
+  
+  NotGateTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Mob.cpp(280,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Mob.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Mob.cpp(289,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Mob.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Mob.cpp(332,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Mob.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Mob.cpp(695,26): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Mob.cpp')
+  
+  ObsidianTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Node.cpp(46,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Node.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Node.cpp(47,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Node.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Node.cpp(48,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Node.cpp')
+  
+  OldChunkStorage.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Mob.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Mob.cpp(288,42):
+          see reference to class template instantiation 'ListTag<FloatTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<FloatTag>::toString(void)'
+  
+  OreFeature.cpp
+  OreRecipies.cpp
+  OreTile.cpp
+  Packet.cpp
+  PacketListener.cpp
+  Painting.cpp
+S:\GitHub\Faucet\Minecraft.World\OldChunkStorage.cpp(438,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file '/OldChunkStorage.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/OldChunkStorage.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\OldChunkStorage.cpp(204,41):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\OreFeature.cpp(44,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/OreFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\OreFeature.cpp(45,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/OreFeature.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\OreFeature.cpp(46,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/OreFeature.cpp')
+  
+  Path.cpp
+  PathFinder.cpp
+  PathfinderMob.cpp
+S:\GitHub\Faucet\Minecraft.World\Path.cpp(10,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Path.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Path.cpp(99,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Path.cpp')
+  
+  PerlinNoise.cpp
+  PerlinSimplexNoise.cpp
+  PickaxeItem.cpp
+  Pig.cpp
+  PigZombie.cpp
+  PineFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\PathfinderMob.cpp(287,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/PathfinderMob.cpp')
+  
+  PistonBaseTile.cpp
+  PistonExtensionTile.cpp
+  PistonMovingPiece.cpp
+  PistonPieceEntity.cpp
+S:\GitHub\Faucet\Minecraft.World\PistonMovingPiece.cpp(96,33): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  (compiling source file '/PistonMovingPiece.cpp')
+  
+  PistonTileItem.cpp
+  PlainsBiome.cpp
+S:\GitHub\Faucet\Minecraft.World\PistonBaseTile.cpp(36,21): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+  (compiling source file '/PistonBaseTile.cpp')
+  
+  Player.cpp
+  PlayerActionPacket.cpp
+  PlayerCommandPacket.cpp
+  PlayerInfoPacket.cpp
+  PlayerInputPacket.cpp
+  PortalForcer.cpp
+  PortalTile.cpp
+S:\GitHub\Faucet\Minecraft.World\PlayerInfoPacket.cpp(32,46): warning C4244: '=': conversion from 'DWORD' to 'short', possible loss of data
+  (compiling source file '/PlayerInfoPacket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\PlayerInfoPacket.cpp(47,17): warning C4244: 'argument': conversion from 'short' to 'byte', possible loss of data
+  (compiling source file '/PlayerInfoPacket.cpp')
+  
+  Pos.cpp
+  PreLoginPacket.cpp
+S:\GitHub\Faucet\Minecraft.World\Pos.cpp(244,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Pos.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Pos.cpp(245,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Pos.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Pos.cpp(246,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Pos.cpp')
+  
+  PressurePlateTile.cpp
+  PrimedTnt.cpp
+  PumpkinFeature.cpp
+  PumpkinTile.cpp
+  BaseRailTile.cpp
+  RainforestBiome.cpp
+  Random.cpp
+  RandomLevelSource.cpp
+S:\GitHub\Faucet\Minecraft.World\PortalForcer.cpp(96,12): warning C4244: 'initializing': conversion from '__int64' to 'long', possible loss of data
+  (compiling source file '/PortalForcer.cpp')
+  
+  Recipes.cpp
+  RecordingItem.cpp
+  JukeboxTile.cpp
+  RedStoneDustTile.cpp
+  RedStoneItem.cpp
+  RedStoneOreTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Player.cpp(1225,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Player.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Player.cpp(1455,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Player.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Player.cpp(1656,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/Player.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Player.cpp(2221,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/Player.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/Player.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\Player.cpp(1265,40):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+S:\GitHub\Faucet\Minecraft.World\Recipes.cpp(1256,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Recipes.cpp')
+  
+  ReedsFeature.cpp
+  ReedTile.cpp
+S:\GitHub\Faucet\Minecraft.World\RandomLevelSource.cpp(134,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/RandomLevelSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RandomLevelSource.cpp(136,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/RandomLevelSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RandomLevelSource.cpp(146,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/RandomLevelSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RandomLevelSource.cpp(148,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/RandomLevelSource.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RandomLevelSource.cpp(153,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file '/RandomLevelSource.cpp')
+  
+  Region.cpp
+  RegionFile.cpp
+S:\GitHub\Faucet\Minecraft.World\RedStoneDustTile.cpp(340,22): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/RedStoneDustTile.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RedStoneDustTile.cpp(341,24): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/RedStoneDustTile.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\RedStoneDustTile.cpp(342,23): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/RedStoneDustTile.cpp')
+  
+  RegionFileCache.cpp
+  RemoveEntitiesPacket.cpp
+  RemoveMobEffectPacket.cpp
+  RespawnPacket.cpp
+  ResultContainer.cpp
+  ResultSlot.cpp
+  RiverInitLayer.cpp
+  RiverLayer.cpp
+  RiverMixerLayer.cpp
+  Rotate.cpp
+  SaddleItem.cpp
+  SandFeature.cpp
+  SandStoneTile.cpp
+  HeavyTile.cpp
+  Sapling.cpp
+  SaplingTileItem.cpp
+  SavedData.cpp
+  SavedDataStorage.cpp
+  Scale.cpp
+  SeedItem.cpp
+  ServerSettingsChangedPacket.cpp
+  SetCarriedItemPacket.cpp
+  SetCreativeModeSlotPacket.cpp
+  SetEntityDataPacket.cpp
+  SetEntityMotionPacket.cpp
+  SetEquippedItemPacket.cpp
+  SetExperiencePacket.cpp
+  SetHealthPacket.cpp
+  SetEntityLinkPacket.cpp
+  SetSpawnPositionPacket.cpp
+  SetTimePacket.cpp
+  ShapedRecipy.cpp
+  ShapelessRecipy.cpp
+  SharedConstants.cpp
+  ShearsItem.cpp
+  Sheep.cpp
+  ShovelItem.cpp
+  SignItem.cpp
+  SignTile.cpp
+  SignTileEntity.cpp
+  SignUpdatePacket.cpp
+S:\GitHub\Faucet\Minecraft.World\ShapedRecipy.cpp(89,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ShapedRecipy.cpp')
+  
+  Silverfish.cpp
+  SimpleContainer.cpp
+  SimplexNoise.cpp
+  Skeleton.cpp
+  Slime.cpp
+  Slot.cpp
+  SmoothFloat.cpp
+  SmoothLayer.cpp
+  SmoothStoneBrickTile.cpp
+  SmoothZoomLayer.cpp
+  Snowball.cpp
+  SnowballItem.cpp
+  SnowTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Snowball.cpp(43,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Snowball.cpp')
+  
+  Socket.cpp
+  Spider.cpp
+  Sponge.cpp
+S:\GitHub\Faucet\Minecraft.World\Socket.cpp(314,31): warning C4858: discarding return value: This member function returns a bool indicating whether the collection is empty and has no other effects. It is not useful to call this member function and discard the return value. This collection can be cleared by assigning an empty value to it.
+  (compiling source file '/Socket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Socket.cpp(362,31): warning C4858: discarding return value: This member function returns a bool indicating whether the collection is empty and has no other effects. It is not useful to call this member function and discard the return value. This collection can be cleared by assigning an empty value to it.
+  (compiling source file '/Socket.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Skeleton.cpp(284,138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Skeleton.cpp')
+  
+  SpringFeature.cpp
+  SpruceFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\Slime.cpp(218,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Slime.cpp')
+  
+  Squid.cpp
+  Stat.cpp
+  Stats.cpp
+  StairTile.cpp
+  StemTile.cpp
+  StoneMonsterTile.cpp
+  StoneSlabTile.cpp
+  StoneSlabTileItem.cpp
+  StoneTile.cpp
+  StringHelpers.cpp
+  StrongholdFeature.cpp
+  StrongholdPieces.cpp
+  StructureFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\StemTile.cpp(131,20): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/StemTile.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\StemTile.cpp(132,22): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/StemTile.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\StemTile.cpp(133,21): warning C4244: 'initializing': conversion from 'float' to 'byte', possible loss of data
+  (compiling source file '/StemTile.cpp')
+  
+  StructurePiece.cpp
+  StructureRecipies.cpp
+  StructureStart.cpp
+  SwampBiome.cpp
+  SwampTreeFeature.cpp
+  SynchedEntityData.cpp
+S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19): warning C4477: 'swprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  (compiling source file '/StructureStart.cpp')
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      consider using '%zd' in the format string
+      S:\GitHub\Faucet\Minecraft.World\ListTag.h(55,19):
+      the template instantiation context (the oldest one first) is
+          S:\GitHub\Faucet\Minecraft.World\StructureStart.cpp(80,43):
+          see reference to class template instantiation 'ListTag<CompoundTag>' being compiled
+          S:\GitHub\Faucet\Minecraft.World\ListTag.h(52,10):
+          while compiling class template member function 'std::wstring ListTag<CompoundTag>::toString(void)'
+  
+  Synth.cpp
+  system.cpp
+  Tag.cpp
+  TaigaBiome.cpp
+  TakeItemEntityPacket.cpp
+  TallGrass.cpp
+  TallGrassFeature.cpp
+  TeleportEntityPacket.cpp
+  TemperatureLayer.cpp
+  TemperatureMixerLayer.cpp
+  TextureChangePacket.cpp
+  TexturePacket.cpp
+  ThinFenceTile.cpp
+  ThreadName.cpp
+  ThrownEgg.cpp
+  TickNextTickData.cpp
+  Tile.cpp
+  TileEventPacket.cpp
+  TileItem.cpp
+  TileEntity.cpp
+  TilePlanterItem.cpp
+  TilePos.cpp
+  TileUpdatePacket.cpp
+  TntTile.cpp
+  ToolRecipies.cpp
+  TopSnowTile.cpp
+  TorchTile.cpp
+  TransparentTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Tile.cpp(1256,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/Tile.cpp')
+  
+  TrapDoorTile.cpp
+  TrapMenu.cpp
+  TreeFeature.cpp
+  UpdateMobEffectPacket.cpp
+  UpdateProgressPacket.cpp
+  UseItemPacket.cpp
+  Vec3.cpp
+  VillageFeature.cpp
+S:\GitHub\Faucet\Minecraft.World\Vec3.cpp(273,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Vec3.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Vec3.cpp(277,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Vec3.cpp')
+  
+  VillagePieces.cpp
+  Villager.cpp
+  VineTile.cpp
+  VoronoiZoom.cpp
+  WaterColor.cpp
+  WaterLevelChunk.cpp
+  WaterlilyFeature.cpp
+  WaterLilyTile.cpp
+  WaterLilyTileItem.cpp
+  WaterWorkerEnchantment.cpp
+  WeaponItem.cpp
+  WeaponRecipies.cpp
+  WeighedRandom.cpp
+  Wolf.cpp
+  TreeTile.cpp
+  WebTile.cpp
+  WorkbenchTile.cpp
+S:\GitHub\Faucet\Minecraft.World\Villager.cpp(466,113): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/Villager.cpp')
+  
+  ConsoleSaveFileInputStream.cpp
+  ConsoleSaveFileOutputStream.cpp
+  Zombie.cpp
+  WaterAnimal.cpp
+  ZoomLayer.cpp
+S:\GitHub\Faucet\Minecraft.World\Wolf.cpp(43,53): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file '/Wolf.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Wolf.cpp(310,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Wolf.cpp')
+  
+S:\GitHub\Faucet\Minecraft.World\Wolf.cpp(355,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Wolf.cpp')
+  
+  Minecraft.World.vcxproj -> S:\GitHub\Faucet\Minecraft.World\x64_Debug\Minecraft.World.lib
