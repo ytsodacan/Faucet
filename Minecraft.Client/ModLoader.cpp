@@ -194,6 +194,10 @@ void ModLoader::OnLevelUnload() {
 void ModLoader::NotifyUpdate(float deltaTime) {
     for (auto& mod : m_mods) {
         if (!mod.healthy) continue;
+        if (mod.instance == nullptr) {
+            mod.healthy = false;
+            continue;
+        }
         try {
             if (!mod.instance->OnUpdate(deltaTime)) {
                 mod.healthy = false;
