@@ -124,7 +124,6 @@ float SDK::GetPlayerHealth(int index) {
 void SDK::SetPlayerHealth(float health, int index) {
     auto* p = GetLocalPlayer(index);
     if (!p) return;
-    // Clamp to valid range so modders can't accidentally set 999 hp
     if (health < 0.0f) health = 0.0f;
     if (health > p->getMaxHealth()) health = p->getMaxHealth();
     p->setHealth(health);
