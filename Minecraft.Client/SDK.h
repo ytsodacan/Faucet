@@ -12,6 +12,10 @@ class PlayerList;
 class ServerPlayer;
 class MultiplayerLocalPlayer;
 
+struct PlayerPos {
+    double x, y, z;
+};
+
 namespace SDK {
     // Logging
     MODAPI void Log(const std::wstring& message);
@@ -31,6 +35,12 @@ namespace SDK {
     // Use MultiplayerLocalPlayer (lowercase p) to match your Minecraft.h
     MODAPI MultiplayerLocalPlayer* GetLocalPlayer(int index);
     MODAPI MultiplayerLocalPlayer* GetLocalPlayer();
+
+    // Player Pos
+    MODAPI double GetPlayerX(int index = 0);
+    MODAPI double GetPlayerY(int index = 0);
+    MODAPI double GetPlayerZ(int index = 0);
+    MODAPI PlayerPos GetPlayerPos(int index = 0);
 
     // Messaging
     MODAPI void BroadcastMessage(const std::wstring& message);

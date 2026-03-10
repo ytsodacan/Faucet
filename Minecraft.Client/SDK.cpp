@@ -85,6 +85,33 @@ MultiplayerLocalPlayer* SDK::GetLocalPlayer() {
     return mc->localplayers[currentIdx].get();
 }
 
+
+
+// ============================================================================
+// Player Pos
+// ============================================================================
+
+double SDK::GetPlayerX(int index) {
+    MultiplayerLocalPlayer* p = GetLocalPlayer(index);
+    return p ? p->x : 0.0;
+}
+
+double SDK::GetPlayerY(int index) {
+    MultiplayerLocalPlayer* p = GetLocalPlayer(index);
+    return p ? p->y : 0.0;
+}
+
+double SDK::GetPlayerZ(int index) {
+    MultiplayerLocalPlayer* p = GetLocalPlayer(index);
+    return p ? p->z : 0.0;
+}
+
+PlayerPos SDK::GetPlayerPos(int index) {
+    MultiplayerLocalPlayer* p = GetLocalPlayer(index);
+    if (!p) return { 0.0, 0.0, 0.0 };
+    return { p->x, p->y, p->z };
+}
+
 // ============================================================================
 // Messaging
 // ============================================================================

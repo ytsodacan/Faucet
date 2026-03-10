@@ -1,3 +1,6 @@
+# Visual Studio directory
+.vs/
+
 # Visual Studio databases
 *.VC.db
 
