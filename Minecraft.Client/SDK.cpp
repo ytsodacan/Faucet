@@ -219,6 +219,85 @@ void SDK::SaveAll(bool force) {
 }
 
 // ============================================================================
+// World / Level
+// ============================================================================
+
+void SDK::ExplodeAt(double x, double y, double z, float radius, bool fire, bool destroyBlocks, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->explode(nullptr, x, y, z, radius, fire, destroyBlocks);
+}
+
+void SDK::SendParticles(const std::wstring& name, double x, double y, double z, int count, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->sendParticles(name, x, y, z, count);
+}
+
+void SDK::SendParticlesEx(const std::wstring& name, double x, double y, double z, int count, double xDist, double yDist, double zDist, double speed, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->sendParticles(name, x, y, z, count, xDist, yDist, zDist, speed);
+}
+
+void SDK::SaveLevel(bool force, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->save(force, nullptr);
+}
+
+bool SDK::IsLevelLoaded(int dimension) {
+    return GetServerLevel(dimension) != nullptr;
+}
+
+void SDK::SetLevelTime(__int64 time, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->setTimeAndAdjustTileTicks(time);
+}
+
+__int64 SDK::GetLevelTime(int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->getGameTime() : 0LL;
+}
+
+void SDK::QueueTileUpdate(int x, int y, int z, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->queueSendTileUpdate(x, y, z);
+}
+
+void SDK::AddTickNextTick(int x, int y, int z, int tileId, int tickDelay, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->addToTickNextTick(x, y, z, tileId, tickDelay);
+}
+
+bool SDK::MayPlayerInteract(int index, int x, int y, int z, int content, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    auto* p = GetLocalPlayer(index);
+    if (!level || !p) return false;
+    return level->mayInteract(std::shared_ptr<Player>(p, [](Player*) {}), x, y, z, content);
+}
+
+// ============================================================================
+// Entity Limits
+// ============================================================================
+
+int SDK::GetPrimedTntCount(int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->m_primedTntCount : 0;
+}
+
+int SDK::GetFallingTileCount(int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->m_fallingTileCount : 0;
+}
+
+bool SDK::CanSpawnTnt(int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->newPrimedTntAllowed() : false;
+}
+
+bool SDK::CanSpawnFallingTile(int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->newFallingTileAllowed() : false;
+}
+
+// ============================================================================
 // Game Rules
 // ============================================================================
 
