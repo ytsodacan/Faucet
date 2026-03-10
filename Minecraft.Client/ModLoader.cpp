@@ -166,28 +166,30 @@ void ModLoader::NotifyInit() {
 }
 
 void ModLoader::OnLevelLoad() {
-    Log("Level loaded");
+    if (m_levelLoaded) return;
+    m_levelLoaded = true;
+    Log(L"Level loaded");
     for (auto& mod : m_mods) {
         if (!mod.healthy) continue;
         try {
             mod.instance->OnLevelLoad();
         }
         catch (...) {
-            Log("OnLevelLoad() threw for: " + std::string(mod.instance->GetInfo()->id));
             mod.healthy = false;
         }
     }
 }
 
 void ModLoader::OnLevelUnload() {
-    Log("Level unloaded");
+    if (!m_levelLoaded) return;
+    m_levelLoaded = false;
+    Log(L"Level unloaded");
     for (auto& mod : m_mods) {
         if (!mod.healthy) continue;
         try {
             mod.instance->OnLevelUnload();
         }
         catch (...) {
-            Log("OnLevelUnload() threw for: " + std::string(mod.instance->GetInfo()->id));
             mod.healthy = false;
         }
     }

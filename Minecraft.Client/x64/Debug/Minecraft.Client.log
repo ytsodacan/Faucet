@@ -1,37 +1,5 @@
-﻿  ModLoader.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'const wchar_t' to 'char', possible loss of data
-  (compiling source file '/ModLoader.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
-      the template instantiation context (the oldest one first) is
-          S:\GitHub\Faucet\Minecraft.Client\ModLoader.cpp(268,27):
-          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
-          with
-          [
-              _Elem=wchar_t,
-              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
-              _Alloc=std::allocator<char>
-          ]
-              S:\GitHub\Faucet\Minecraft.Client\ModLoader.cpp(268,27):
-              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'ModLoader::LoadOneMod'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
-          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*,const wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
-          with
-          [
-              _Size_type=unsigned __int64,
-              _Iter=const wchar_t *,
-              _Sent=const wchar_t *,
-              _Size=unsigned __int64
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
-          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<const wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
-          with
-          [
-              _OutIt=char *,
-              _Size=unsigned __int64,
-              _InIt=const wchar_t *,
-              _SizeTy=unsigned __int64
-          ]
-  
+﻿  SDK.cpp
+  ServerLevel.cpp
   Microsoft (R) Incremental Linker Version 14.44.35222.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   "/OUT:S:\GitHub\Faucet\x64\Debug\Faucet.exe" /INCREMENTAL "/ILK:x64\Debug\Faucet.ilk" d3d11.lib ..\Minecraft.World\x64_Debug\Minecraft.World.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib XInput9_1_0.lib ..\Minecraft.Client\Windows64\Miles\Lib\mss64.lib wsock32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:S:\GitHub\Faucet\x64\Debug\Minecraft.Client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:S:\GitHub\Faucet\x64\Debug\Faucet.lib" /MACHINE:X64 x64\Debug\MinecraftWindows.res 
@@ -539,6 +507,40 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
   Windows64\Iggy\lib\iggy_w64.lib 
   Windows64\Miles\lib\mss64.lib 
   x64\Debug\iob_shim.obj 
+4J_Input_d.lib(4J_Input.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(4J_Input.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Input_d.lib(INP_Keyboard.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(INP_Keyboard.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Input_d.lib(INP_Main.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(INP_Main.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Input_d.lib(stdafx.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(stdafx.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Input_d.lib(LinkedList.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(LinkedList.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Input_d.lib(INP_ForceFeedback.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Input_d.lib(INP_ForceFeedback.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(4J_Render.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(4J_Render.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererMatrix.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererMatrix.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererCore.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererCore.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererVertex.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererVertex.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererCBuff.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererCBuff.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererTexture.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererTexture.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(RendererState.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(RendererState.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(stdafx.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(stdafx.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngread.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngread.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngwrite.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngwrite.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(png.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(png.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngrtran.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngrtran.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngtrans.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngtrans.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngrio.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngrio.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngmem.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngmem.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngerror.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngerror.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngset.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngset.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngget.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngget.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngrutil.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngrutil.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngwutil.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngwutil.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngwio.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngwio.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Render_PC_d.lib(pngwtran.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Render_PC_d.lib(pngwtran.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Storage_d.lib(4J_Storage.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Storage_d.lib(4J_Storage.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Storage_d.lib(STO_SaveGame.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Storage_d.lib(STO_SaveGame.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Storage_d.lib(STO_DLC.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Storage_d.lib(STO_DLC.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Storage_d.lib(STO_Main.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Storage_d.lib(STO_Main.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+4J_Storage_d.lib(stdafx.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with '4J_Storage_d.lib(stdafx.obj)' or at 'S:\GitHub\Faucet\x64\Debug\vc110.pdb'; linking object as if no debug info
+     Creating library S:\GitHub\Faucet\x64\Debug\Faucet.lib and object S:\GitHub\Faucet\x64\Debug\Faucet.exp
   Minecraft.Client.vcxproj -> S:\GitHub\Faucet\x64\Debug\Faucet.exe
   Run post-build script
   Post-build script started. Output Directory: S:\GitHub\Faucet\x64\Debug\/, Project Directory: S:\GitHub\Faucet\Minecraft.Client\/

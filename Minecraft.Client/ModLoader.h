@@ -101,6 +101,8 @@ public:
     // See ModLoader.cpp for exactly where each one goes.
     // ------------------------------------------------------------------
 
+    bool m_levelLoaded = false;
+
     void Initialize();
     void NotifyInit();
     void OnLevelLoad();
