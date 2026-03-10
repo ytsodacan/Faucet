@@ -31,10 +31,10 @@ Faucet lets you load custom DLL mods into Minecraft Legacy Console Edition using
    - `IMod.h`
    - `SDK.h`
    - `ModExport.h`
-   - `Minecraft.Client.lib`
+   - `Faucet.lib`
 3. In your project properties:
    - **C/C++ → Additional Include Directories**: add `$(ProjectDir)`
-   - **Linker → Input → Additional Dependencies**: add `Minecraft.Client.lib`
+   - **Linker → Input → Additional Dependencies**: add `Faucet.lib`
    - **Linker → General → Additional Library Directories**: add `$(ProjectDir)`
 4. Remove `dllmain.cpp` from the project (right-click → Remove in Solution Explorer).
 
