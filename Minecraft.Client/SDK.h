@@ -90,4 +90,19 @@ namespace SDK {
     MODAPI void SetPvpAllowed(bool enabled);
     MODAPI bool IsFlightAllowed();
     MODAPI void SetFlightAllowed(bool enabled);
+
+    // Block reading/writing
+    MODAPI int   GetTile(int x, int y, int z, int dimension = 0);
+    MODAPI void  SetTileAndUpdate(int x, int y, int z, int tileId, int dimension = 0);
+
+    // Biome
+    MODAPI Biome* GetBiomeAt(int x, int z, int dimension = 0);
+
+    // Tile Entities (chests, furnaces etc)
+    MODAPI std::vector<std::shared_ptr<TileEntity>>* GetTileEntitiesInRegion(
+        int x0, int y0, int z0,
+        int x1, int y1, int z1,
+        int dimension = 0);
+
+    MODAPI bool  IsChunkLoaded(int chunkX, int chunkZ, int dimension = 0);
 }

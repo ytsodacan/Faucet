@@ -320,3 +320,36 @@ void SDK::SetFlightAllowed(bool enabled) {
     MinecraftServer* s = GetServer();
     if (s) s->setFlightAllowed(enabled);
 }
+
+// ============================================================================
+// Chunk / Block / World Data
+// ============================================================================
+
+int SDK::GetTile(int x, int y, int z, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->getTile(x, y, z) : 0;
+}
+
+void SDK::SetTileAndUpdate(int x, int y, int z, int tileId, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    if (level) level->setTileAndUpdate(x, y, z, tileId);
+}
+
+Biome* SDK::GetBiomeAt(int x, int z, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->getBiome(x, z) : nullptr;
+}
+
+std::vector<std::shared_ptr<TileEntity>>* SDK::GetTileEntitiesInRegion(
+    int x0, int y0, int z0,
+    int x1, int y1, int z1,
+    int dimension)
+{
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->getTileEntitiesInRegion(x0, y0, z0, x1, y1, z1) : nullptr;
+}
+
+bool SDK::IsChunkLoaded(int chunkX, int chunkZ, int dimension) {
+    ServerLevel* level = GetServerLevel(dimension);
+    return level ? level->getChunk(chunkX, chunkZ) != nullptr : false;
+}
