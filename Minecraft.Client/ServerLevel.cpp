@@ -112,6 +112,7 @@ ServerLevel::ServerLevel(MinecraftServer *server, shared_ptr<LevelStorage>levelS
 	// 4J - The listener used to be added in MinecraftServer::loadLevel but we need it to be set up before we do the next couple of things, or else chunks get loaded before we have the entity tracker set up to listen to them
 	this->server = server;
 	server->setLevel(dimension, this);		// The listener needs the server to have the level set up... this will be set up anyway on return of this ctor but setting up early here
+	ModLoader::Get().OnLevelLoad();
 	addListener(new ServerLevelListener(server, this));
 
 	tracker = new EntityTracker(this);
@@ -162,6 +163,8 @@ ServerLevel::ServerLevel(MinecraftServer *server, shared_ptr<LevelStorage>levelS
 
 ServerLevel::~ServerLevel()
 {
+	ModLoader::Get().OnLevelUnload();
+
 	delete portalForcer;
 	delete mobSpawner;
 
@@ -838,7 +841,6 @@ void ServerLevel::initializeLevel(LevelSettings *settings)
 	setInitialSpawn(settings);
 
 	Level::initializeLevel(settings);
-	ModLoader::Get().OnLevelLoad();
 }
 
 /**
@@ -1213,7 +1215,7 @@ bool ServerLevel::doTileEvent(TileEventData *te)
 void ServerLevel::closeLevelStorage()
 {
 	levelStorage->closeAll();
-	ModLoader::Get().OnLevelUnload();
+
 }
 
 void ServerLevel::tickWeather()
