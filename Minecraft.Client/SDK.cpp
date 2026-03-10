@@ -113,6 +113,72 @@ PlayerPos SDK::GetPlayerPos(int index) {
 }
 
 // ============================================================================
+// Player Stats
+// ============================================================================
+
+float SDK::GetPlayerHealth(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->getHealth() : 0.0f;
+}
+
+void SDK::SetPlayerHealth(float health, int index) {
+    auto* p = GetLocalPlayer(index);
+    if (!p) return;
+    // Clamp to valid range so modders can't accidentally set 999 hp
+    if (health < 0.0f) health = 0.0f;
+    if (health > p->getMaxHealth()) health = p->getMaxHealth();
+    p->setHealth(health);
+}
+
+float SDK::GetPlayerMaxHealth(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->getMaxHealth() : 20.0f;
+}
+
+bool SDK::IsPlayerAlive(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->getHealth() > 0.0f : false;
+}
+
+// ============================================================================
+// Player State
+// ============================================================================
+
+void SDK::SetPlayerFlying(bool flying, int index) {
+    auto* p = GetLocalPlayer(index);
+    if (p) p->abilities.flying = flying;
+}
+
+bool SDK::IsPlayerFlying(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->abilities.flying : false;
+}
+
+bool SDK::IsPlayerSprinting(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->isSprinting() : false;
+}
+
+bool SDK::IsPlayerSneaking(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->isSneaking() : false;
+}
+
+bool SDK::IsPlayerOnGround(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->onGround : false;
+}
+
+// ============================================================================
+// Player Info
+// ============================================================================
+
+std::wstring SDK::GetPlayerName(int index) {
+    auto* p = GetLocalPlayer(index);
+    return p ? p->name : L"";
+}
+
+// ============================================================================
 // Messaging
 // ============================================================================
 

@@ -42,6 +42,22 @@ namespace SDK {
     MODAPI double GetPlayerZ(int index = 0);
     MODAPI PlayerPos GetPlayerPos(int index = 0);
 
+    // Player Stats
+    MODAPI float GetPlayerHealth(int index = 0);
+    MODAPI void  SetPlayerHealth(float health, int index = 0);
+    MODAPI float GetPlayerMaxHealth(int index = 0);
+    MODAPI bool  IsPlayerAlive(int index = 0);
+
+    // Player State
+    MODAPI void  SetPlayerFlying(bool flying, int index = 0);
+    MODAPI bool  IsPlayerFlying(int index = 0);
+    MODAPI bool  IsPlayerSprinting(int index = 0);
+    MODAPI bool  IsPlayerSneaking(int index = 0);
+    MODAPI bool  IsPlayerOnGround(int index = 0);
+
+    // Player Info
+    MODAPI std::wstring GetPlayerName(int index = 0);
+
     // Messaging
     MODAPI void BroadcastMessage(const std::wstring& message);
     MODAPI void SendMessageToPlayer(const std::wstring& playerName, const std::wstring& message);
