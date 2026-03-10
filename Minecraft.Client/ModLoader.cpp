@@ -364,11 +364,7 @@ void ModLoader::OpenLogFile() {
     m_logFile = CreateFileW(logPath.c_str(), GENERIC_WRITE, FILE_SHARE_READ,
         nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
 
-    if (m_logFile != INVALID_HANDLE_VALUE) {
-        BYTE bom[3] = { 0xEF, 0xBB, 0xBF };
-        DWORD written;
-        WriteFile(m_logFile, bom, 3, &written, nullptr);
-    }
+
 }
 
 void ModLoader::Log(const std::string& msg) {
