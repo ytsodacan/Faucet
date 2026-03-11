@@ -1,3 +1,13 @@
-[16:54:27] === Faucet ModLoader starting ===
-[16:54:27] Found 0 mod(s) to load
-[16:54:27] Initialization complete — 0 loaded, 0 failed, 169ms total
+[15:54:42] === Faucet ModLoader starting ===
+[15:54:42] Found 1 mod(s) to load
+[15:54:42] ExampleMod: OnLoad
+[15:54:42] OK   [com.SillyProotSoda.examplemod 1.0.0] loaded in 47ms
+[15:54:42] Initialization complete — 1 loaded, 0 failed, 165ms total
+[15:54:46] [Registry] Created Item id=3000 icon=sillyprootsoda:exampleitem
+[15:54:46] [Registry] Registered item 'sillyprootsoda:exampleitem' -> id 3000
+[15:54:46] ExampleMod: OnInit AND registered items
+[15:54:46] REGISTER
+[15:54:46] [Registry] Added id=3000 to creative group 4
+[15:54:46] Registry flush complete — 1 creative item(s) injected
+[15:55:03] Level loaded
+[15:55:03] ExampleMod: shutting down

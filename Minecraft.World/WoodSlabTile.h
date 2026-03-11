@@ -5,7 +5,7 @@
 
 class Player;
 
-class WoodSlabTile : HalfSlabTile
+class WoodSlabTile : public HalfSlabTile
 {	
 
 	friend class Tile;

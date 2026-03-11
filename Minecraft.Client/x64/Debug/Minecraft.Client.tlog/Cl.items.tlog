@@ -321,6 +321,7 @@ S:\GitHub\Faucet\Minecraft.Client\HugeExplosionParticle.cpp;S:\GitHub\Faucet\Min
 S:\GitHub\Faucet\Minecraft.Client\HugeExplosionSeedParticle.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\HugeExplosionSeedParticle.obj
 S:\GitHub\Faucet\Minecraft.Client\HumanoidMobRenderer.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\HumanoidMobRenderer.obj
 S:\GitHub\Faucet\Minecraft.Client\HumanoidModel.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\HumanoidModel.obj
+S:\GitHub\Faucet\Minecraft.Client\IdRegistry.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\IdRegistry.obj
 S:\GitHub\Faucet\Minecraft.Client\InBedChatScreen.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\InBedChatScreen.obj
 S:\GitHub\Faucet\Minecraft.Client\Input.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Input.obj
 S:\GitHub\Faucet\Minecraft.Client\ItemFrameRenderer.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\ItemFrameRenderer.obj
@@ -385,6 +386,7 @@ S:\GitHub\Faucet\Minecraft.Client\PreStitchedTextureMap.cpp;S:\GitHub\Faucet\Min
 S:\GitHub\Faucet\Minecraft.Client\ProgressRenderer.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\ProgressRenderer.obj
 S:\GitHub\Faucet\Minecraft.Client\PS3\PS3Extras\ShutdownManager.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\ShutdownManager.obj
 S:\GitHub\Faucet\Minecraft.Client\Rect2i.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Rect2i.obj
+S:\GitHub\Faucet\Minecraft.Client\Registry.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Registry.obj
 S:\GitHub\Faucet\Minecraft.Client\RemotePlayer.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\RemotePlayer.obj
 S:\GitHub\Faucet\Minecraft.Client\PlayerRenderer.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\PlayerRenderer.obj
 S:\GitHub\Faucet\Minecraft.Client\Polygon.cpp;S:\GitHub\Faucet\Minecraft.Client\x64\Debug\Polygon.obj

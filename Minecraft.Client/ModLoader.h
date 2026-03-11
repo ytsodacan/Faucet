@@ -51,6 +51,8 @@ public:
      */
     virtual bool OnInit() = 0;
 
+    virtual void OnRegister() = 0;
+
     /**
      * Called each time MinecraftServer::setLevel() runs.
      * @param dimension  0=Overworld, -1=Nether, 1=End
@@ -105,6 +107,7 @@ public:
 
     void Initialize();
     void NotifyInit();
+    void NotifyRegister();
     void OnLevelLoad();
     void OnLevelUnload();
     void NotifyUpdate(float deltaTime);

@@ -426,6 +426,7 @@ void Minecraft::init()
 
 	RenderManager.CBuffLockStaticCreations();
 	ModLoader::Get().NotifyInit();
+	ModLoader::Get().NotifyRegister();
 }
 
 void Minecraft::renderLoadingScreen()

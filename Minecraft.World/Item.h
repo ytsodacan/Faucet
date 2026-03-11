@@ -678,7 +678,7 @@ protected:
 public:
 	int getMaxDamage();
 
-protected:
+public:
 	Item *setMaxDamage(int maxDamage);
 
 public:

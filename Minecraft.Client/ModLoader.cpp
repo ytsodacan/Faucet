@@ -8,6 +8,9 @@
 #include <windows.h>
 #include <thread>
 #include <gdiplus.h>
+#include "Registry.h"
+#include "IdRegistry.h"
+#include "GameBridge.h"
 
 #pragma comment(lib, "gdiplus.lib")
 
@@ -293,6 +296,33 @@ void ModLoader::NotifyInit()
             mod.healthy = false;
         }
     }
+}
+
+void ModLoader::NotifyRegister()
+{
+    Log(L"REGISTER");
+    for (auto& mod : m_mods)
+    {
+        if (!mod.healthy) continue;
+        try { mod.instance->OnRegister(); }
+        catch (...) {
+            Log("OnRegister() threw for: " + std::string(mod.instance->GetInfo()->id));
+            mod.healthy = false;
+        }
+    }
+
+    const auto& pending = Registry::Internal::GetPendingCreativeItems();
+    size_t count = pending.size();
+
+    for (const auto& item : pending)
+    {
+
+        GameBridge::AddToCreativeGroup(item.itemId, item.count, item.auxValue, item.groupIndex);
+    }
+
+    Registry::Internal::ClearPendingCreativeItems();
+
+    Log("Registry flush complete — " + std::to_string(count) + " creative item(s) injected");
 }
 
 void ModLoader::OnLevelLoad()

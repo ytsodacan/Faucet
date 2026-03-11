@@ -49,6 +49,11 @@ class Tile
 	friend class ChunkRebuildData;
 	friend class WallTile;
 
+public:
+	float destroySpeed;
+	float explosionResistance;
+	wstring iconName;
+
 protected:
 	// 4J added so we can have separate shapes for different threads
 	class ThreadStorage
@@ -89,7 +94,6 @@ private:
 protected:
 	static const float INDESTRUCTIBLE_DESTROY_TIME;
 
-	wstring iconName;
 
 public:
 
@@ -545,8 +549,6 @@ public:
 
 	int id;
 protected:
-	float destroySpeed;
-	float explosionResistance;
 	bool isInventoryItem;
 	bool collectStatistics;
 	bool _isTicking;
