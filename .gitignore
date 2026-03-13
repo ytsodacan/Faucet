@@ -10,5 +10,8 @@
 
 # Linker/compiler intermediates
 *.ilk
-*.lib
 *.pdb
+
+# Build artifacts for Minecraft.World
+Minecraft.World/x64_Debug/Minecraft.World.lib
+Minecraft.World/x64_Release/Minecraft.World.lib
