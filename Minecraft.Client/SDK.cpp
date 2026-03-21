@@ -182,8 +182,17 @@ std::wstring SDK::GetPlayerName(int index) {
 // ============================================================================
 
 void SDK::BroadcastMessage(const std::wstring& message) {
-    PlayerList* list = GetPlayerList();
-    if (list) list->sendMessage(L"", message);
+    MinecraftServer* server = GetServer();
+    if (!server) return;
+
+    PlayerList* playerList = server->getPlayers();
+    if (!playerList) return;
+
+    int playerCap = playerList->players.size();
+    for (size_t i = 0; i < playerCap; i++)
+    {
+        playerList->sendMessage(playerList->players[i]->getName(), message);
+    }
 }
 
 void SDK::SendMessageToPlayer(const std::wstring& playerName, const std::wstring& message) {
